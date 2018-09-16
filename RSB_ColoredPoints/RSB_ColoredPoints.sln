@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RSB_ColoredPoints", "RSB_ColoredPoints\", "{E1F9C2D7-EFEA-4701-A91A-02D59502993D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57258"
+		Debug.AspNetCompiler.PhysicalPath = "RSB_ColoredPoints\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57258\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57258"
+		Release.AspNetCompiler.PhysicalPath = "RSB_ColoredPoints\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57258\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57258"
+		SlnRelativePath = "RSB_ColoredPoints\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1F9C2D7-EFEA-4701-A91A-02D59502993D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F9C2D7-EFEA-4701-A91A-02D59502993D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {969BA568-6EC0-4D24-AA28-DE0EDDF49091}
+	EndGlobalSection
+EndGlobal
