@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RSB_RotatedTriangle", "RSB_RotatedTriangle\", "{32A4D7D5-26FD-4C08-8CC5-5B498887C9B2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64878"
+		Debug.AspNetCompiler.PhysicalPath = "RSB_RotatedTriangle\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64878\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64878"
+		Release.AspNetCompiler.PhysicalPath = "RSB_RotatedTriangle\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64878\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64878"
+		SlnRelativePath = "RSB_RotatedTriangle\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32A4D7D5-26FD-4C08-8CC5-5B498887C9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A4D7D5-26FD-4C08-8CC5-5B498887C9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACE6F6AF-71AF-4335-9274-17139FBC216C}
+	EndGlobalSection
+EndGlobal
