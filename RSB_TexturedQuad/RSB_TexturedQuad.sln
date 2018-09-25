@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RSB_TexturedQuad", "RSB_TexturedQuad\", "{A19A62D3-8212-4BF6-B7FA-505CD4586385}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55195"
+		Debug.AspNetCompiler.PhysicalPath = "RSB_TexturedQuad\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55195\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55195"
+		Release.AspNetCompiler.PhysicalPath = "RSB_TexturedQuad\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55195\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55195"
+		SlnRelativePath = "RSB_TexturedQuad\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A19A62D3-8212-4BF6-B7FA-505CD4586385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19A62D3-8212-4BF6-B7FA-505CD4586385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4D36E28-A310-49EE-BB12-2E307EF7BEEE}
+	EndGlobalSection
+EndGlobal
