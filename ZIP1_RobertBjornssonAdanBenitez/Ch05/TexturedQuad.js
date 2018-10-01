@@ -61,10 +61,10 @@ function initVertexBuffers(gl) {
     // Map texture coordinates to the WebGL coordinates
     var verticesTexCoords = new Float32Array([
     // Vertex coordinates, texture coordinate
-        -0.5,  0.5,   0.0, 1.0, // Bottom left
-        -0.5, -0.5,   0.0, 0.0, // Bottom Right
-        0.5,  0.5,   1.0, 1.0, // Top Left
-        0.5, -0.5,   1.0, 0.0, // Top Right
+        -1,  1,   0.0, 4.0, // Top Left
+        -1, -1,   0.0, 0.0, // Bottom Left
+        1,  1,   4.0, 4.0, // Top Right
+        1, -1,   4.0, 0.0, // Bottom Right
     ]);
     var n = 4; // The number of vertices
 
@@ -141,7 +141,7 @@ function initTextures(gl, n) {
     // Event handler. When the image has loaded, call the "loadTexture" function to draw the image
     image.onload = function () { loadTexture(gl, n, texture, u_Sampler, image); };
     // Load the image from local files
-    image.src = 'resources/sky.jpg';
+    image.src = 'resources/particle.png';
 
     // Indicate that the function ran without complications
     return true;
@@ -158,6 +158,9 @@ function loadTexture(gl, n, texture, u_Sampler, image) {
 
     // Set texture parameters (options)
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.REPEAT);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.REPEAT);
+    
     // Write the data from the image (piel information) object into the texture
     gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, image);
 
