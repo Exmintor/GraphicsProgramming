@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RSB_OrthoView", "RSB_OrthoView\", "{4316F320-BC28-44C3-BEF7-75FD0FD933C1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64153"
+		Debug.AspNetCompiler.PhysicalPath = "RSB_OrthoView\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64153\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64153"
+		Release.AspNetCompiler.PhysicalPath = "RSB_OrthoView\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64153\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64153"
+		SlnRelativePath = "RSB_OrthoView\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4316F320-BC28-44C3-BEF7-75FD0FD933C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4316F320-BC28-44C3-BEF7-75FD0FD933C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A0407E9-5120-478A-A9F3-DEA604272F4E}
+	EndGlobalSection
+EndGlobal
