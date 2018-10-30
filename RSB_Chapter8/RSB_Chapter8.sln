@@ -71,6 +71,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LightedTranslatedRotatedCub
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PointLightedCube", "PointLightedCube\", "{A1D61C9E-C5EE-4AA2-B588-583BEFAEBF52}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55676"
+		Debug.AspNetCompiler.PhysicalPath = "PointLightedCube\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55676\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55676"
+		Release.AspNetCompiler.PhysicalPath = "PointLightedCube\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55676\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55676"
+		SlnRelativePath = "PointLightedCube\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +104,8 @@ Global
 		{5C36003A-632A-4787-A2B1-C03C03A2056B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2205493B-B766-4888-8203-CDC7EB48D178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2205493B-B766-4888-8203-CDC7EB48D178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D61C9E-C5EE-4AA2-B588-583BEFAEBF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D61C9E-C5EE-4AA2-B588-583BEFAEBF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
